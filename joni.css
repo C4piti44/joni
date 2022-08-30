@@ -1,0 +1,238 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("D:\\My_Projects\\first_joni\\fonts\\OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+*,
+*::after,
+*::before{
+box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family: "Open Sans";
+    overflow-x: hidden;
+    
+}
+
+.hero-section .upper-part .btn {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-left: 14px;
+    padding-top: 4.04px;
+    padding-bottom: 4.7px;
+    padding-right: 12.95px;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+}
+
+.wrapper{
+    max-width: 1482;
+    margin:0 auto;
+
+}
+
+/* header*/ 
+
+header{
+    background: radial-gradient(47.67% 66.68% at 56.87% 46.02%, #494848 6.03%, #040403 100%);
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+nav .logo{
+    position: absolute;
+    left: 235px;
+    top: 15px;
+    
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 45.13px;
+    list-style: none;
+    position: absolute;
+    top : 20px;
+    left: 410px ;
+
+}
+
+nav ul li a{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+/* hero section*/
+
+.hero-section .upper-part{
+    text-align: center;
+    position: absolute;
+    top: 312.65px;
+    left:536px;
+
+}
+
+.hero-section .upper-part h1{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom:21.19px ;
+    
+    
+    
+}
+.hero-section .upper-part p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 46.42px;
+    
+}
+
+.hero-section .lower-part {
+    position : absolute ;
+    top:869px; 
+    left:197px ;
+    margin: 0px;
+}
+
+nav .social{
+    display: flex;
+    align-items: center;
+    gap: 12.18px;
+    position: absolute;
+    left:1619.56px ;
+    top : 46.05px;
+}
+
+.solution-page {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.77) 0%, #F2F6F6 100%) ;
+    height: 100vh;
+    width: 100%;
+}
+.solution-page .upper-part h2{
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 56px;
+    position: absolute;
+    top:1106px;
+    left: 40.31%;
+}
+.solution-page .lower-part .content p{
+    margin:0px;
+}
+
+.left-card .solution{
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    height: 458px;
+    width: 445px;
+    text-align: center;
+    position: absolute;
+    left:12.66% ;
+    top: 1246px;
+    font-weight: 400;
+    font-size: 20px;
+    box-shadow: 10px 0px 30px rgba(0, 0, 0, 0.05);
+
+}
+.left-card .solution img{
+    position:absolute;
+    top:70px;
+    left:183px;
+}
+.left-card .solution h3 {
+    position: absolute;
+    top: 27.33%;
+    left: 175px;
+    
+}
+.left-card .solution .content p {
+    position: absolute;
+    top: 220px;
+    left: 25px;
+    
+}
+
+.middle-card .solution{
+    background-color:#FFFFFF;
+    border-radius: 14px;
+    height: 458px;
+    width: 445px;
+    text-align: center;
+    position: absolute;
+    left:38.7% ;
+    top: 1246px;
+    font-weight: 400;
+    font-size: 20px;
+    box-shadow: 10px 0px 30px rgba(0, 0, 0, 0.05);
+}
+.middle-card .solution img{
+    position:absolute;
+    top:65px;
+    left:183px;
+}
+.middle-card .solution h3 {
+    position: absolute;
+    top: 27.33%;
+    left: 36.33%;
+    
+}
+.middle-card .solution .content p {
+    position: absolute;
+    top: 220px;
+    left: 25px;
+    
+}
+
+.right-card .solution{
+    background-color:#FFFFFF;
+    border-radius: 14px;
+    height: 458px;
+    width: 445px;
+    text-align: center;
+    position: absolute;
+    left:64.74% ;
+    top: 1246px;
+    font-weight: 400;
+    font-size: 20px;
+    box-shadow: 10px 0px 30px rgba(0, 0, 0, 0.05);
+}
+.right-card .solution img{
+    position:absolute;
+    top:70px;
+    left:183px;
+}
+.right-card .solution h3 {
+    position: absolute;
+    top: 27.33%;
+    left: 36.33%;
+    
+}
+.right-card .solution .content p {
+    position: absolute;
+    top: 220px;
+    left: 25px;
+    
+}

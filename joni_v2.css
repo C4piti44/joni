@@ -1,0 +1,25 @@
+$enable-responsive-font-sizes:true;
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("D:\\My_Projects\\first_joni\\fonts\\OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+.page-1{
+    background: radial-gradient(47.67% 66.68% at 56.87% 46.02%, #494848 6.03%, #040403 100%);
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar-toggler{
+    filter: invert(100%);
+}
+
+.page-2 .content-1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 62px;
+}
+

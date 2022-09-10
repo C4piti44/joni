@@ -1,25 +1,391 @@
-$enable-responsive-font-sizes:true;
-
 @font-face {
     font-family: "Open Sans";
     src: url("D:\\My_Projects\\first_joni\\fonts\\OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
 }
 
+*,
+*::after,
+*::before{
+box-sizing:border-box;
+}
+
+.social-list{
+    list-style: none;
+}
+
+@media (min-width:768px ) {
+   
+body{
+    overflow-x: hidden;
+}
+
+/* page 1 */
 .page-1{
     background: radial-gradient(47.67% 66.68% at 56.87% 46.02%, #494848 6.03%, #040403 100%);
+    color: white;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
+    }
+
+.page-1 .hey-1 ul li{
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
 }
 
-.navbar-toggler{
-    filter: invert(100%);
-}
 
-.page-2 .content-1{
+.page-1 .content .main-content h1{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 50px;
     line-height: 62px;
+    margin-bottom: 21.97px;
 }
+
+.page-1 .content .second-content{
+    font-family: 'Open Sans';
+    mix-blend-mode: normal;
+    opacity: 0.99;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 46px;
+    
+    
+}
+
+.page-1 .content .btn{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-left: 14px;
+    padding-top: 4.04px;
+    padding-bottom: 4.7px;
+    padding-right: 12.95px;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    
+    
+    
+}
+.page-1 .content{
+    position: relative;
+    top: 20vh;
+}
+
+.page-1 .bottom-part{
+    position: relative;
+    top: 48vh;
+    left: 15px;
+}
+
+/* page 2 */
+
+.page-2{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.77) 0%, #F2F6F6 100%);
+    height: 100vh;
+    width: 100%;
+}
+
+.page-2 .upper-part{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    position: relative;
+    top: 133px;
+    margin-bottom:84px ;
+     
+}
+
+.page-2 .solution{
+    background-color:#FFFFFF;
+    border-radius: 14px;
+    height: 458px;
+    width: 445px;
+    font-weight: 400;
+    font-size: 20px;
+    box-shadow: 10px 0px 30px rgba(0, 0, 0, 0.05);
+    margin: 20px;
+}
+
+.page-2 .lower-part .intro {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+
+}
+
+.page-2 .lower-part .content{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px; 
+}
+.page-2 .lower-part .left-card img{
+    margin-top: 82px;
+    margin-bottom: 30px;
+}
+.page-2 .lower-part .middle-card img{
+    margin-top: 73px;
+    margin-bottom: 25px;
+}
+
+.page-2 .lower-part .right-card img{
+    margin-top: 82px;
+    margin-bottom: 30px;
+}
+
+
+.page-2 .lower-part {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+}
+
+/* page 3 */
+
+.page-3{
+    height: 100vh;
+    width: 100%;
+}
+
+.page-3 .upper-part{
+    display: flex;
+    justify-content: center;
+}
+
+.page-3 .lower-part {
+    display: flex;
+    justify-content: center;
+}
+
+
+.page-3 .upper-part .left-card{
+    width: 444px;
+    height: 264px;
+    margin-right: 25px;
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.1));
+    border-radius: 10px;
+    margin-bottom: 6px;
+    margin-top: 123px;
+    position: relative;
+    top: 3vh;
+    left: 3vh;
+}
+
+.page-3 .upper-part .solution{
+    width: 444px;
+    height: 264px;
+    margin-right: 25px;
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.1));
+    border-radius: 10px;
+    margin-bottom: 6px;
+    margin-top: 123px;
+    border-left: 1px solid;
+
+    
+}
+
+.page-3 .lower-part .solution{
+    width: 444px;
+    height: 264px;
+    margin-right: 25px;
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.1));
+    border-radius: 10px;
+    border-left: 1px solid;
+
+    
+}
+
+.page-3 .upper-part .left-card .headline p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: -1px;
+    border: 0;
+    
+}
+.page-3 .upper-part .left-card .content p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+
+.page-3 .solution .content p{
+    position: relative;
+    height: 96px;
+    left: 6.55%;
+    
+}
+
+.page-3 .solution .title p{
+    position: relative;
+    left: 6.31%;
+    top: 26.56%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    letter-spacing: 1px;
+    color: #282828;
+    margin-bottom: 18.79px ;
+}
+
+.page-3 .solution .logo {
+    position: relative;
+    left: 31px;
+}
+
+/*End of page 3*/
+
+
+.page-4{
+    height: 100vh;
+    width: 100%;
+    background: black;
+}
+
+/*End of page 4*/ 
+
+
+.page-5{
+    height: 100vh;
+    width: 100%;
+    background: #F2F6F6;
+}
+
+.page-5 .upper-part {
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: -1px;
+    color: #040403;
+    width: 487px;
+    height: 134px;
+    position: absolute;
+    width: 487px;
+    height: 134px;
+    left: 721px;
+    top: 4005px;
+
+}
+
+.page-5 .lower-part .low-code {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 348px;
+    top: 4278px;
+}
+
+.page-5 .lower-part .woo-commerce{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 583px;
+    top: 4325px;
+}
+
+.page-5 .lower-part .node-js{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 770px;
+    top: 4222px;
+}
+
+.page-5 .lower-part .next-js {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 297px;
+    top: 4558px;
+}
+
+.page-5 .lower-part .priority {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 683px;
+    top: 4558px;
+}
+
+.page-5 .lower-part .php-c{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 823px;
+    top: 4426px;
+}
+
+.page-5 .lower-part .sap{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1048px;
+    top: 4608px;
+}
+
+.page-5 .lower-part .angular{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1200px;
+    top: 4280px;
+}
+
+.page-5 .lower-part .mongo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1211px;
+    top: 4462px;
+}
+
+.page-5 .lower-part .react{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1483px;
+    top: 4246px;
+}
+
+.page-5 .lower-part .cloud{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1408px;
+    top: 4562px;
+}
+
+.page-5 .lower-part .aws{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1686px;
+    top: 4490px;
+}
+
+
+}
+
+@media (max-width:768px ) {
+    body{
+        background: red;
+    }
+}
+
+
 

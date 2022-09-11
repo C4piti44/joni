@@ -33,11 +33,16 @@ body{
     font-size: 20px;
     line-height: 20px;
 }
+.main-content-mobile{
+
+    display: none;
+}
 
 
 .page-1 .content .main-content h1{
     font-family: 'Open Sans';
     font-style: normal;
+    text-align: center;
     font-weight: 600;
     font-size: 50px;
     line-height: 62px;
@@ -378,12 +383,110 @@ body{
     top: 4490px;
 }
 
+.foot {
+    background: black;
+    width: 1925px;
+    height: 341px;
+}
+
+.foot .logo{
+    position: absolute;
+    width: 250.65px;
+    height: 144px;
+    left: 238.62px;
+    top: 4893px;
+}
+
+.foot .links .link-1 {
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    width: 182.47px;
+    height: 30px;
+    left: 972.53px;
+    top: 4950px;
+}
+
+.foot .links .link-2 {
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    width: 139.36px;
+    height: 30px;
+    left: 1210.14px;
+    top: 4950px;
+}
+
+.foot .links .link-3 {
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    width: 154.4px;
+    height: 30px;
+    left: 1404.65px;
+    top: 4950px;
+}
+
+.foot .links .link-4 {
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    position: absolute;
+    width: 73.19px;
+    height: 20px;
+    left: 1614.19px;
+    top: 4952px;
+}
+
+.foot .copy-right {
+    position: relative;
+    height: 16px;
+    left: 12.43%;
+    right: 65.51%;
+    top: 295px ;
+
+    font-family: 'Abhaya Libre SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.foot .social{
+    display: flex;
+    align-items: center;
+    gap: 12.18px;
+    position: relative;
+    left: 1617.2px;
+    top: 280px;
+}
 
 }
 
 @media (max-width:768px ) {
-    body{
-        background: red;
+    .page-1{
+        color: #FFFFFF;
+        background: brown;
+        height: 469px ;
+        width: 376px;
+    }
+    
+    .page-1 .main-content{
+        display: none;
+    }
+
+    .page-1 .main-content-mobile{
+        position: relative;
+        width: 324px;
+        height: 93px;
+        top: 60px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+    }
+    
+    .page-1 .navbar-toggler-icon{
+        filter: invert(100%);
     }
 }
 

@@ -1,6 +1,11 @@
 @font-face {
     font-family: "Open Sans";
-    src: url("D:\\My_Projects\\first_joni\\fonts\\OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+    src: url("OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url("Rubik-VariableFont_wght_wdth,wght.ttf") format("truetype");
 }
 
 *,
@@ -27,6 +32,10 @@ body{
     width: 100%;
     }
 
+.page-1 .bottom-part-mobile{
+    display: none;
+}
+
 .page-1 .hey-1 ul li{
     padding: 10px;
     font-weight: 400;
@@ -34,8 +43,15 @@ body{
     line-height: 20px;
 }
 .main-content-mobile{
-
     display: none;
+}
+
+.page-1 .content .image-content{
+    display: none;
+}
+
+.page-1 .content .second-content-mobile{
+    display:none;
 }
 
 
@@ -49,6 +65,7 @@ body{
     margin-bottom: 21.97px;
 }
 
+
 .page-1 .content .second-content{
     font-family: 'Open Sans';
     mix-blend-mode: normal;
@@ -57,6 +74,8 @@ body{
     font-size: 28px;
     line-height: 38px;
     margin-bottom: 46px;
+    text-align: center;
+
     
     
 }
@@ -473,21 +492,65 @@ body{
     .page-1 .main-content{
         display: none;
     }
+    
+    .page-1 .content .second-content{
+        display: none;
+    }
 
     .page-1 .main-content-mobile{
         position: relative;
         width: 324px;
         height: 93px;
-        top: 60px;
-        font-family: 'Rubik';
+        top: 49px;
+        font-family:"Open Sans";
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
+        margin-bottom: 7px;
+    }
+
+    .page-1 .second-content-mobile{
+        position: relative;
+        width: 314px;
+        height: 64px;
+        top: 78px ;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
     }
     
     .page-1 .navbar-toggler-icon{
         filter: invert(100%);
     }
+
+    .page-1 .navigation-bar .navbar-brand{
+        position: relative;
+        width: 118.36px;
+        height: 75px;
+        
+        }
+
+    .page-1 .button-1 {
+        display: none;
+    }
+
+    .page-1 .bottom-part{
+        display: none;
+    }
+    
+    .page-1 .bottom-part-mobile{
+        position: absolute;
+        width: 541.98px;
+        height: 38px;
+        top: 409px;
+    }
+    
+    .page-1{ 
+        background-image: url("astra.jpg");
+    }
+
+
 }
 
 
